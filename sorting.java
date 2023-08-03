@@ -20,7 +20,8 @@ public class sorting {
         }
         printArray(arr);
     }
-    public static void insertionSort(int[] arr){
+    //SELECTION SORT
+    public static void selectionSort(int[] arr){
         //{10,9,8,7,6,5}
         for(int i=0;i<arr.length-1;i++){
             int smallest=i;
@@ -50,8 +51,8 @@ public class sorting {
         System.out.println("");
 
         //SELECTION SORT  O(n^2)
-        System.out.println("Insertion Sort:");
-        insertionSort(a1);
+        System.out.println("Selection Sort:");
+        selectionSort(a1);
 
     }
 
